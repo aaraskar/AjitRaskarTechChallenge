@@ -18,10 +18,10 @@ Understanding the output
 To be noted
 
 # Tools and Technology used:
-* Java8, 
-* Rest assured library (3.0.6),
+* Java 8
+* Rest assured library (3.0.6)
 * TestNG (6.14.3),
-* Maven
+* Maven (3.8.1)
 * Log4j API(1.2.17)
 * API used: One call API  https://openweathermap.org/api/one-call-api
 
