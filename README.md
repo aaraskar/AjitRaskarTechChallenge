@@ -66,13 +66,13 @@ Note here current date at the time of writing this readme was 23-04-2021. Sydney
 Output:
 Printing below details for Sydney
 * Day and Predicted Temperature of all upcoming 7 days in Sydney where current date is :23-04-2021
-* Day :24-04-2021(1619226000), Temperature : 18.24 degrees
-* Day :25-04-2021(1619312400), Temperature : 17.8 degrees
-* Day :26-04-2021(1619398800), Temperature : 17.38 degrees
-* Day :27-04-2021(1619485200), Temperature : 17.98 degrees
-* Day :28-04-2021(1619571600), Temperature : 18.83 degrees
-* Day :29-04-2021(1619658000), Temperature : 18.95 degrees
-* Day :30-04-2021(1619744400), Temperature : 19.44 degrees
+ * Day :24-04-2021(1619226000), Temperature : 18.24 degrees
+ * Day :25-04-2021(1619312400), Temperature : 17.8 degrees
+ * Day :26-04-2021(1619398800), Temperature : 17.38 degrees
+ * Day :27-04-2021(1619485200), Temperature : 17.98 degrees
+ * Day :28-04-2021(1619571600), Temperature : 18.83 degrees
+ * Day :29-04-2021(1619658000), Temperature : 18.95 degrees
+ * Day :30-04-2021(1619744400), Temperature : 19.44 degrees
 
 #########################################################################
 
