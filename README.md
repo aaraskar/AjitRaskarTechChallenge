@@ -17,34 +17,34 @@ Sample output
 Understanding the output
 To be noted
 
-Tools and Technology used:
+# Tools and Technology used:
 Java, Rest assured library,TestNG, Maven,Log4j API
 API used: One call API  https://openweathermap.org/api/one-call-api
 
-Problem statement:
+# Problem statement:
 Find the number of days in Sydney where the temperature is predicated to be above 20 degrees (at the time of calling the API) in the next 7 days (from the current days date), or whichever period the free subscription will allow.
 Also find how many days it is predicted to be sunny in the same time period.
 
-Instructions to execute the code
-1: Clone the repository <<repo name>>
+# Instructions to execute the code
+1: Clone the repository https://github.com/aaraskar/AjitRaskarTechChallenge.git
 2: Navigate to root directory and fire the command mvn clean install
 3:Or the other way is once you have the code mentioned in above git repository in your editor then right click the testng.xml and select Run As TestNG Suite
 Note:testng.xml is present at the root directory level. This is a main configuration file in TestNG
 
-Test cases executed:
+# Test cases executed:
 1: validateResponseCodeTest : This verifies the status code of API execution.
 2: validateLatitudeLongitudeTest: This verifies values of latitude and longitude from API response.
 3: validateTimezoneTest :  This verifies the value of timezone from API response
 4: validateWeatherDetailsTest: This test focusses on parsing the response of API execution and prints the result for the requirement mentioned in ‘Problem statement’ section
 
-Test case result artifacts:
+# Test case result artifacts:
 After executing the code, refer below files for more information.
 1:<<Root Dir>>/Result.log : This contains the detailed report for the requirement mentioned in ‘Problem statement’ section
 2:<<Root Dir>>/target/request.log: Contains logs related to request
 3:<<Root Dir>>/target/response.log: Contains logs related to response
 4:<<Root Dir>>/test-output/index.html : Contains results of all the test cases
 
-Project structure:
+# Project structure:
 <<Root Dir>>src\main\java\com\qa\base\TestBase.java : This is a super class of all classes and it loads the configuration file(config.properties)
 <<Root Dir>>\src\main\java\com\qa\utils\Utility.java : This contains various utility methods for parsing the response and printing the result.
 <<Root Dir>>\src\main\java\com\qa\WeatherClient\WeatherAPIClient.java
@@ -57,51 +57,49 @@ This is a weather api client code.
 
 
 
-Sample output
+# Sample output
 Below is the sample output which shows the number of days in Sydney where the temperature is predicated to be above 20 degrees in next 7 days from the current date and find how days it is predicted to be sunny in the same time period.
-Note here current date is 22-04-2021. Sydney is specified using its latitude and longitude values in the request.
+Note here current date at the time of writing this readme was 23-04-2021. Sydney is specified using its latitude and longitude values in the request.
 Output:
-####################################################################
-Printing below details for location with latitude= 33.8688 and longitude = 151.2093
+Printing below details for Sydney
+Day and Predicted Temperature of all upcoming 7 days in Sydney where current date is :23-04-2021
+Day :24-04-2021(1619226000), Temperature : 18.24 degrees
+Day :25-04-2021(1619312400), Temperature : 17.8 degrees
+Day :26-04-2021(1619398800), Temperature : 17.38 degrees
+Day :27-04-2021(1619485200), Temperature : 17.98 degrees
+Day :28-04-2021(1619571600), Temperature : 18.83 degrees
+Day :29-04-2021(1619658000), Temperature : 18.95 degrees
+Day :30-04-2021(1619744400), Temperature : 19.44 degrees
 
-Day and Predicted Temperature of all upcoming 7 days where current date is :22-04-2021
-Day :24-04-2021(1619226000), Temperature : 14.07 degrees
-Day :25-04-2021(1619312400), Temperature : 13.56 degrees
-Day :29-04-2021(1619658000), Temperature : 14.87 degrees
-Day :27-04-2021(1619485200), Temperature : 11.95 degrees
-Day :26-04-2021(1619398800), Temperature : 15.92 degrees
-Day :23-04-2021(1619139600), Temperature : 11.9 degrees
-Day :28-04-2021(1619571600), Temperature : 13.77 degrees
+#########################################################################
 
-####################################################################
 
-There is no single day in next 7 days where temperature is predicated to be above 20 degrees
+Above data confirms that there is no single day in Sydney in next 7 days where temperature is predicated to be above 20 degrees
 
-####################################################################
-Day and Predicted Weather of all upcoming 7 days where current date is :22-04-2021
-Day :24-04-2021(1619226000), Weather : Rain
+
+#########################################################################
+Day and Predicted Weather of all upcoming 7 days in Sydney where current date is :23-04-2021
+Day :24-04-2021(1619226000), Weather : Clouds
 Day :25-04-2021(1619312400), Weather : Clouds
-Day :29-04-2021(1619658000), Weather : Clouds
-Day :27-04-2021(1619485200), Weather : Clear
 Day :26-04-2021(1619398800), Weather : Rain
-Day :23-04-2021(1619139600), Weather : Rain
-Day :28-04-2021(1619571600), Weather : Clouds
+Day :27-04-2021(1619485200), Weather : Rain
+Day :28-04-2021(1619571600), Weather : Rain
+Day :29-04-2021(1619658000), Weather : Rain
+Day :30-04-2021(1619744400), Weather : Rain
 
-####################################################################
 
-Number of Sunny Days are : 1
-Those days and their weather are::
-Day :27-04-2021(1619485200), Weather : Clear
-####################################################################
+#########################################################################
+Above data confirms that there is no single sunny day in Sydney in next 7 days
 
-Understanding the output
+
+# Understanding the output
 There are 4 sections of the output
-Section 1: It contains Day and Predicted Temperature of all upcoming 7 days from the current date.
+Section 1: It contains Day and Predicted Temperature in Sydney for all upcoming 7 days from the current date.
 Section 2: Prints numbers of days where temperature is predicted to be above 20 degrees.
-Section 3: Prints Day and Predicted weather of all upcoming 7 days from the current date.
-Section 4: Prints number of sunny days
+Section 3: Prints Day and Predicted weather in Sydney for all upcoming 7 days from the current date.
+Section 4: Prints number of predicted sunny days in Sydney
 
-To be noted
+# To be noted
 1:A day which has weather predicted as Clear is treated as a sunny day.
 From the response there is a parameter called daily.weather.main which treats a day either sunny/rainy/cloudy etc . 
 For various weather parameters refer https://openweathermap.org/api/one-call-api
