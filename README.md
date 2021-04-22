@@ -7,8 +7,8 @@ This project has built a client which communicates with open weather map API cal
 This project also has one TestNG class which tests this client.
 
 # Table of Contents
-* Tools and Technology used
-* Problem statement
+##  Tools and Technology used
+##  Problem statement
 * Instructions to execute the code
 * Test cases executed
 * Test case result artifacts
