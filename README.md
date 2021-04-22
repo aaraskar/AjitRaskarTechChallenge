@@ -65,7 +65,7 @@ After executing the code, refer below files for more information.
 Below is the sample output which shows the number of days in Sydney where the temperature is predicated to be above 20 degrees in next 7 days from the current date and find how days it is predicted to be sunny in the same time period.
 Note here current date at the time of writing this readme was 23-04-2021. 
 Sydney is specified using its latitude and longitude values in the request.
-Output:
+**Output:**
 * Printing below details for Sydney
 * Day and Predicted Temperature of all upcoming 7 days in Sydney where current date is :23-04-2021
    * Day :24-04-2021(1619226000), Temperature : 18.24 degrees
