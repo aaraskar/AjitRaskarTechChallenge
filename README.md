@@ -30,9 +30,9 @@ Find the number of days in Sydney where the temperature is predicated to be abov
 Also find how many days it is predicted to be sunny in the same time period.
 
 # Instructions to execute the code
-1: Clone the repository https://github.com/aaraskar/AjitRaskarTechChallenge.git
-2: Navigate to root directory and fire the command mvn clean install
-3:Or the other way is once you have the code mentioned in above git repository in your editor then right click the testng.xml and select Run As TestNG Suite
+* Clone the repository https://github.com/aaraskar/AjitRaskarTechChallenge.git
+* Navigate to root directory and fire the command mvn clean install
+* Or the other way is once you have the code mentioned in above git repository in your editor then right click the testng.xml and select Run As TestNG Suite
 Note:testng.xml is present at the root directory level. This is a main configuration file in TestNG
 
 # Test cases executed:
@@ -65,14 +65,14 @@ Below is the sample output which shows the number of days in Sydney where the te
 Note here current date at the time of writing this readme was 23-04-2021. Sydney is specified using its latitude and longitude values in the request.
 Output:
 Printing below details for Sydney
-Day and Predicted Temperature of all upcoming 7 days in Sydney where current date is :23-04-2021
-Day :24-04-2021(1619226000), Temperature : 18.24 degrees
-Day :25-04-2021(1619312400), Temperature : 17.8 degrees
-Day :26-04-2021(1619398800), Temperature : 17.38 degrees
-Day :27-04-2021(1619485200), Temperature : 17.98 degrees
-Day :28-04-2021(1619571600), Temperature : 18.83 degrees
-Day :29-04-2021(1619658000), Temperature : 18.95 degrees
-Day :30-04-2021(1619744400), Temperature : 19.44 degrees
+* Day and Predicted Temperature of all upcoming 7 days in Sydney where current date is :23-04-2021
+* Day :24-04-2021(1619226000), Temperature : 18.24 degrees
+* Day :25-04-2021(1619312400), Temperature : 17.8 degrees
+* Day :26-04-2021(1619398800), Temperature : 17.38 degrees
+* Day :27-04-2021(1619485200), Temperature : 17.98 degrees
+* Day :28-04-2021(1619571600), Temperature : 18.83 degrees
+* Day :29-04-2021(1619658000), Temperature : 18.95 degrees
+* Day :30-04-2021(1619744400), Temperature : 19.44 degrees
 
 #########################################################################
 
