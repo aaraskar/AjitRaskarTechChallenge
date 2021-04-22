@@ -18,7 +18,11 @@ Understanding the output
 To be noted
 
 # Tools and Technology used:
-Java, Rest assured library,TestNG, Maven,Log4j API
+Java8, 
+Rest assured library (3.0.6),
+TestNG (6.14.3),
+Maven
+Log4j API(1.2.17)
 API used: One call API  https://openweathermap.org/api/one-call-api
 
 # Problem statement:
