@@ -77,30 +77,31 @@ Output:
 #########################################################################
 
 
-Above data confirms that there is no single day in Sydney in next 7 days where temperature is predicated to be above 20 degrees
+* Above data confirms that there is no single day in Sydney in next 7 days where temperature is predicated to be above 20 degrees
 
 
 #########################################################################
-Day and Predicted Weather of all upcoming 7 days in Sydney where current date is :23-04-2021
-Day :24-04-2021(1619226000), Weather : Clouds
-Day :25-04-2021(1619312400), Weather : Clouds
-Day :26-04-2021(1619398800), Weather : Rain
-Day :27-04-2021(1619485200), Weather : Rain
-Day :28-04-2021(1619571600), Weather : Rain
-Day :29-04-2021(1619658000), Weather : Rain
-Day :30-04-2021(1619744400), Weather : Rain
+
+* Day and Predicted Weather of all upcoming 7 days in Sydney where current date is :23-04-2021
+  * Day :24-04-2021(1619226000), Weather : Clouds
+  * Day :25-04-2021(1619312400), Weather : Clouds
+  * Day :26-04-2021(1619398800), Weather : Rain
+  * Day :27-04-2021(1619485200), Weather : Rain
+  * Day :28-04-2021(1619571600), Weather : Rain
+  * Day :29-04-2021(1619658000), Weather : Rain
+  * Day :30-04-2021(1619744400), Weather : Rain
 
 
 #########################################################################
-Above data confirms that there is no single sunny day in Sydney in next 7 days
+* Above data confirms that there is no single sunny day in Sydney in next 7 days
 
 
 # Understanding the output
-There are 4 sections of the output
-Section 1: It contains Day and Predicted Temperature in Sydney for all upcoming 7 days from the current date.
-Section 2: Prints numbers of days where temperature is predicted to be above 20 degrees.
-Section 3: Prints Day and Predicted weather in Sydney for all upcoming 7 days from the current date.
-Section 4: Prints number of predicted sunny days in Sydney
+* There are 4 sections of the output
+  * Section 1: It contains Day and Predicted Temperature in Sydney for all upcoming 7 days from the current date.
+  * Section 2: Prints numbers of days where temperature is predicted to be above 20 degrees.
+  * Section 3: Prints Day and Predicted weather in Sydney for all upcoming 7 days from the current date.
+  * Section 4: Prints number of predicted sunny days in Sydney
 
 # To be noted
 1:A day which has weather predicted as Clear is treated as a sunny day.
