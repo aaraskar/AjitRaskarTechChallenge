@@ -62,7 +62,8 @@ After executing the code, refer below files for more information.
 
 # Sample output
 Below is the sample output which shows the number of days in Sydney where the temperature is predicated to be above 20 degrees in next 7 days from the current date and find how days it is predicted to be sunny in the same time period.
-Note here current date at the time of writing this readme was 23-04-2021. Sydney is specified using its latitude and longitude values in the request.
+Note here current date at the time of writing this readme was 23-04-2021. 
+Sydney is specified using its latitude and longitude values in the request.
 Output:
 * Printing below details for Sydney
 * Day and Predicted Temperature of all upcoming 7 days in Sydney where current date is :23-04-2021
@@ -104,12 +105,12 @@ Output:
   * Section 4: Prints number of predicted sunny days in Sydney
 
 # To be noted
-1:A day which has weather predicted as Clear is treated as a sunny day.
-From the response there is a parameter called daily.weather.main which treats a day either sunny/rainy/cloudy etc . 
+* A day which has weather predicted as Clear is treated as a sunny day.
+From the response there is a parameter called **daily.weather.main** which treats a day either sunny/rainy/cloudy etc . 
 For various weather parameters refer https://openweathermap.org/api/one-call-api
 For more information on various weather conditions, refer https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2 
 
-2:Different combinations of city, predicted temperature and predicted weather type can be passed in config.properties 
+* Different combinations of city, predicted temperature and predicted weather type can be passed in config.properties 
 Pass correct latitude and longitude in config.properties to represent city.  
 timeZone variable has the format <<CountryName/CityName>>
 For e.g Australia/Sydney
