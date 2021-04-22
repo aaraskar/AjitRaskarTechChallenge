@@ -36,28 +36,27 @@ Also find how many days it is predicted to be sunny in the same time period.
 Note:testng.xml is present at the root directory level. This is a main configuration file in TestNG
 
 # Test cases executed:
-1: validateResponseCodeTest : This verifies the status code of API execution.
-2: validateLatitudeLongitudeTest: This verifies values of latitude and longitude from API response.
-3: validateTimezoneTest :  This verifies the value of timezone from API response
-4: validateWeatherDetailsTest: This test focusses on parsing the response of API execution and prints the result for the requirement mentioned in ‘Problem statement’ section
+* validateResponseCodeTest : This verifies the status code of API execution.
+* validateLatitudeLongitudeTest: This verifies values of latitude and longitude from API response.
+* validateTimezoneTest :  This verifies the value of timezone from API response.
+* validateWeatherDetailsTest: This test focusses on parsing the response of API execution and prints the result for the requirement mentioned in ‘Problem statement’ section.
 
 # Test case result artifacts:
 After executing the code, refer below files for more information.
-1:<<Root Dir>>/Result.log : This contains the detailed report for the requirement mentioned in ‘Problem statement’ section
-2:<<Root Dir>>/target/request.log: Contains logs related to request
-3:<<Root Dir>>/target/response.log: Contains logs related to response
-4:<<Root Dir>>/test-output/index.html : Contains results of all the test cases
+* <<Root Dir>>/Result.log : This contains the detailed report for the requirement mentioned in ‘Problem statement’ section
+* <<Root Dir>>/target/request.log: Contains logs related to request
+* <<Root Dir>>/target/response.log: Contains logs related to response
+* <<Root Dir>>/test-output/index.html : Contains results of all the test cases
 
 # Project structure:
-<<Root Dir>>src\main\java\com\qa\base\TestBase.java : This is a super class of all classes and it loads the configuration file(config.properties)
-<<Root Dir>>\src\main\java\com\qa\utils\Utility.java : This contains various utility methods for parsing the response and printing the result.
-<<Root Dir>>\src\main\java\com\qa\WeatherClient\WeatherAPIClient.java
-This is a weather api client code.
-<<Root Dir>>src\test\java\com\qa\test\WeatherAPITest.java : This is a testNG class which tests the weather api client
-<<Root Dir>>\src\main\resources\config.properties: This is a property file containing various parameters for request.
-<<Root Dir>>\src\main\resources\log4j.properties : This is a configuration file for logging mechanism.
-<<Root Dir>>\testng.xml : This is a testNG configuration file
-<<Root Dir>>\pom.xml : This file contains all the maven dependencies.
+* <<Root Dir>>\src\main\java\com\qa\base\TestBase.java : This is a super class of all classes and it loads the configuration file(config.properties)
+* <<Root Dir>>\src\main\java\com\qa\utils\Utility.java : This contains various utility methods for parsing the response and printing the result.
+* <<Root Dir>>\src\main\java\com\qa\WeatherClient\WeatherAPIClient.java  This is a weather api client code.
+* <<Root Dir>>src\test\java\com\qa\test\WeatherAPITest.java : This is a testNG class which tests the weather api client.
+* <<Root Dir>>\src\main\resources\config.properties: This is a property file containing various parameters for request.
+* <<Root Dir>>\src\main\resources\log4j.properties : This is a configuration file for logging mechanism.
+* <<Root Dir>>\testng.xml : This is a testNG configuration file.
+* <<Root Dir>>\pom.xml : This file contains all the maven dependencies.
 
 
 
