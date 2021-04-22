@@ -40,7 +40,7 @@ Note:testng.xml is present at the root directory level. This is a main configura
 * validateResponseCodeTest : This verifies the status code of API execution.
 * validateLatitudeLongitudeTest: This verifies values of latitude and longitude from API response.
 * validateTimezoneTest :  This verifies the value of timezone from API response.
-* validateWeatherDetailsTest: This test focusses on parsing the response of API execution and prints the result for the requirement mentioned in ‘Problem statement’ section.
+* validateWeatherDetailsTest: This test focusses on parsing the response of API execution and prints the result for the requirement mentioned in ‘**Problem statement**’ section.
 
 # Test case result artifacts:
 After executing the code, refer below files for more information.
