@@ -2,7 +2,7 @@
 
 Author:Ajit Raskar
 
-##Summary: 
+#Summary: 
 This project has built a client which communicates with open weather map API called One call API. Main task of this client is to predict weather and temperature of Sydney for upcoming 7 days from the current date.
 This project also has one TestNG class which tests this client.
 
