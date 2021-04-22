@@ -33,6 +33,7 @@ Also find how many days it is predicted to be sunny in the same time period.
 * Clone the repository https://github.com/aaraskar/AjitRaskarTechChallenge.git
 * Navigate to root directory and fire the command mvn clean install
 * Or the other way is once you have the code mentioned in above git repository in your editor then right click the testng.xml and select Run As TestNG Suite
+
 Note:testng.xml is present at the root directory level. This is a main configuration file in TestNG
 
 # Test cases executed:
