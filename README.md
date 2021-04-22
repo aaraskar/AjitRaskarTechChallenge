@@ -18,12 +18,12 @@ Understanding the output
 To be noted
 
 # Tools and Technology used:
-Java8, 
-Rest assured library (3.0.6),
-TestNG (6.14.3),
-Maven
-Log4j API(1.2.17)
-API used: One call API  https://openweathermap.org/api/one-call-api
+* Java8, 
+* Rest assured library (3.0.6),
+* TestNG (6.14.3),
+* Maven
+* Log4j API(1.2.17)
+* API used: One call API  https://openweathermap.org/api/one-call-api
 
 # Problem statement:
 Find the number of days in Sydney where the temperature is predicated to be above 20 degrees (at the time of calling the API) in the next 7 days (from the current days date), or whichever period the free subscription will allow.
